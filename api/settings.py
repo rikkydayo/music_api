@@ -76,7 +76,7 @@ REST_FRAMEWORK = {
     ],
 }
 
-ROOT_URLCONF = "app.urls"
+ROOT_URLCONF = "api.urls"
 
 TEMPLATES = [
     {

@@ -18,4 +18,4 @@ class PostSerializer(serializers.ModelSerializer):
     created_at = serializers.DateTimeField(format="%Y-%m-%d %H:%M:%S",read_only=True)
     class Meta:
         model = Post
-        fields = {'id', 'title', 'thumbnail', 'created_at'}
+        fields = ('id', 'title','content','thumbnail', 'created_at')
